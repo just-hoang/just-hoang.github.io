@@ -69,7 +69,7 @@ const Hero = () => {
         <a href="https://software.imdea.org/" target="_blank" rel="noreferrer">
           IMDEA Software Institute
         </a>
-        in Madrid, Spain.
+        {' '}in Madrid, Spain.
       </p>
       <p>
         I have to do a lot of programming for my work, and I like it!

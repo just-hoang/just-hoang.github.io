@@ -270,7 +270,9 @@ const Projects = () => {
 
       <p> For the last two years, I have been working on a model-driven methodology for enforcing Fine-Grained Access Control policies on Database-centric applications.
       View{' '}<a href="/4_publication_summary.pdf">this</a> for an up-to-date summary of my line of work.
-      Currently, at IMDEA, I am working on the problem of security in micro-architectures.
+      </p>
+      <p>
+      Currently, at IMDEA, I am working on the security problem in software-hardware contracts w.r.t. speculation attacks and their countermeasures.
       </p>
       
 
