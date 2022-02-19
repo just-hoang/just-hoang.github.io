@@ -142,7 +142,7 @@ const About = () => {
             </p>
             
             <p>
-              Currently, I am looking for opportunities for doing a Doctor of Philosophy in Formal Methods, Software Engineering or Information Security.
+              Currently, I am a research intern at the{' '}<a href="https://software.imdea.org/">IMDEA</a> (Madrid Institute for Advanced Studies in Software Development Technologies) in Madrid, and I am looking for opportunities for doing a PhD in the broad fields of Formal Methods, Software Engineering and/or Information Security.
             </p>
           </div>
 

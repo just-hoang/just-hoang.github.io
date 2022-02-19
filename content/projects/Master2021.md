@@ -2,11 +2,10 @@
 date: '2021-09-03'
 title: 'Intelligently enforcement of Fine-Grained Access Control for SQL queries'
 github: 'https://github.com/npbhoang/FGAC-Optimizer'
-external: './master21.pdf'
+external: 'https://repositorio.uam.es/handle/10486/700263'
 tech:
-  - Master Thesis
-  - First-order logic
-  - Optimizing queries
+  - Procedure optimization
+  - Model-checking
 company: 'Autonoma Universidad de Madrid'
 showInProjects: true
 ---
