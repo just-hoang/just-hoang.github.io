@@ -19,6 +19,10 @@ module.exports = {
     },
     {
       name: 'Education',
+      url: '/#edu',
+    },
+    {
+      name: 'Working',
       url: '/#jobs',
     },
     {

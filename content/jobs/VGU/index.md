@@ -1,13 +1,13 @@
 ---
-date: '2021-09-26'
-title: 'Undergraduate'
+date: '2019-02-01'
+title: 'Research Assistant'
 company: 'Vietnamese-German University'
 shorthandcompany: 'VGU'
 location: 'Binh Duong, Vietnam'
-range: 'October 2014 - August 2018'
+range: 'Feb 2019 - Feb 2022'
 url: 'https://vgu.edu.vn'
+type: 'job'
 ---
 
-- majored in Computer Science,
-- double-degree programme with the Frankfurt University of Applied Sciences, in Germany,
-- Bachelor thesis: Critical configuration on Chip-Firing Games.
+- supervisor: Assoc. Prof. Manuel Clavel.
+- focus area: Model-driven Engineering, Database security.

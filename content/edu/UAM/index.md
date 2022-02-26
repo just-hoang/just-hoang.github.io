@@ -6,6 +6,7 @@ shorthandcompany: 'UAM'
 location: 'Madrid, Spain'
 range: 'September 2020 - September 2021'
 url: 'https://www.uam.es/uam/inicio'
+type: 'edu'
 ---
 
 - majored in Formal Methods of Computer Engineering,

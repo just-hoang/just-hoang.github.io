@@ -164,11 +164,11 @@ const StyledTabPanel = styled.div`
   }
 `;
 
-const Jobs = () => {
+const Edu = () => {
   const data = useStaticQuery(graphql`
     query {
-      jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/jobs/" } }
+      edu: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/edu/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
@@ -188,7 +188,7 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
+  const eduData = data.edu.edges;
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
@@ -244,13 +244,13 @@ const Jobs = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Work experience</h2>
+    <StyledJobsSection id="edu" ref={revealContainer}>
+      <h2 className="numbered-heading">My education</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Education tabs" onKeyDown={e => onKeyDown(e)}>
-          {jobsData &&
-            jobsData.map(({ node }, i) => {
+          {eduData &&
+            eduData.map(({ node }, i) => {
               const { shorthandcompany } = node.frontmatter;
               return (
                 <StyledTabButton
@@ -271,8 +271,8 @@ const Jobs = () => {
         </StyledTabList>
 
         <StyledTabPanels>
-          {jobsData &&
-            jobsData.map(({ node }, i) => {
+          {eduData &&
+            eduData.map(({ node }, i) => {
               const { frontmatter, html } = node;
               const { title, url, company, range } = frontmatter;
               const { type } = node.frontmatter;
@@ -308,4 +308,4 @@ const Jobs = () => {
   );
 };
 
-export default Jobs;
+export default Edu;
