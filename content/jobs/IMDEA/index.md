@@ -9,5 +9,5 @@ url: 'https://software.imdea.org/'
 type: 'job'
 ---
 
-- supervisor: Dr. Marco Guarnierri.
+- supervisor: Dr. Marco Guarnieri.
 - focus area: Computer security, Speculation attacks, hardware-contract synthesis.
