@@ -142,7 +142,7 @@ const About = () => {
             </p>
             
             <p>
-              Currently, I am a research intern at the{' '}<a href="https://software.imdea.org/">IMDEA</a> (Madrid Institute for Advanced Studies in Software Development Technologies) in Madrid. Also, I am looking for opportunities for doing a PhD in the broad fields of Formal Methods, Software Engineering and/or Information Security.
+              Currently, I am a research intern at the{' '}<a href="https://software.imdea.org/">IMDEA</a> (Madrid Institute for Advanced Studies in Software Development Technologies) in Madrid. I will join the{' '}<a href="https://infsec.ethz.ch/" target="_blank" rel="noreferrer">Information Security Group</a>{' '}at ETH Zurich as a PhD student next semester. Here, I will be focusing on Database security with the emphasis on data privacy and access control.
             </p>
           </div>
 

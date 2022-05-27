@@ -64,12 +64,19 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a research intern
+        I'm currently research intern in Software-Hardware Security
         at the{' '}
         <a href="https://software.imdea.org/" target="_blank" rel="noreferrer">
           IMDEA Software Institute
         </a>
         {' '}in Madrid, Spain.
+      </p>
+      <p>
+        I will join the{' '} 
+        <a href="https://infsec.ethz.ch/" target="_blank" rel="noreferrer">
+          Information Security Group
+        </a> 
+        {' '}at ETH Zurich as a PhD student next semester.
       </p>
       <p>
         I have to do a lot of programming for my work, and I like it!
