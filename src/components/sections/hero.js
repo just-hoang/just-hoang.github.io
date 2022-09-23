@@ -10,6 +10,7 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
+  margin-top: 50px;
   padding: 0;
 
   @media (max-width: 480px) and (min-height: 700px) {
@@ -64,25 +65,17 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm currently research intern in Software-Hardware Security
-        at the{' '}
-        <a href="https://software.imdea.org/" target="_blank" rel="noreferrer">
-          IMDEA Software Institute
-        </a>
-        {' '}in Madrid, Spain.
-      </p>
-      <p>
-        I will join the{' '} 
+        I'm currently a doctoral candidate in the{' '} 
         <a href="https://infsec.ethz.ch/" target="_blank" rel="noreferrer">
           Information Security Group
         </a> 
-        {' '}at ETH Zurich as a PhD student next semester.
+        {' '}at the ETH Zurich.
       </p>
       <p>
         I have to do a lot of programming for my work, and I like it!
         But, ... there's a special place in my heart for Mathematics: 
         I'm easily triggered by puzzles and math problems, and 
-        I try to prove them, informally and/or formally, in my own time.
+        I try to prove them, and if possible, mechanize them, in my own time.
       </p>
     </>
   );

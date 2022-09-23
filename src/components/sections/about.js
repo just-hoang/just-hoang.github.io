@@ -135,14 +135,14 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Ho&#224;ng and I am from Vietnam.
-              I graduated from the{' '}<a href="https://vgu.edu.vn/">Vietnamese-German University</a>, in Vietnam, majored in Computer Science. Then, I've a privilege of working at a{' '}<a href="https://www.axonactive.com/">software development company</a> for a year before coming back to my alma mater to pursue an academic career. 
+              I graduated from the{' '}<a href="https://vgu.edu.vn/">Vietnamese-German University</a>, majored in Computer Science. Then, I've a privilege of working at a{' '}<a href="https://www.axonactive.com/">software development company</a> for a year before coming back to my alma mater to pursue an academic career. 
             </p>
             <p>
-              For the last two years, I've worked as a research assistant at my local university. During this period, I also enrolled in the{' '}<a href="https://www.fi.upm.es/?id=metodosformalesii&idioma=english">Master of Formal Methods</a> at the Aut&#243;noma &#124; Complutense &#124; Polit&#233;cnica Universidad de Madrid, Spain.
+              After that, I enrolled in the{' '}<a href="https://www.fi.upm.es/?id=metodosformalesii&idioma=english">Master of Formal Methods</a> at the Aut&#243;noma &#124; Complutense &#124; Polit&#233;cnica Universidad de Madrid, Spain. Here, I did an intern at the{' '}<a href="https://software.imdea.org/">IMDEA Software Institute</a>. 
             </p>
             
             <p>
-              Currently, I am a research intern at the{' '}<a href="https://software.imdea.org/">IMDEA</a> (Madrid Institute for Advanced Studies in Software Development Technologies) in Madrid. I will join the{' '}<a href="https://infsec.ethz.ch/" target="_blank" rel="noreferrer">Information Security Group</a>{' '}at ETH Zurich as a PhD student next semester. Here, I will be focusing on Database security with the emphasis on data privacy and access control.
+              Currently, I am a doctoral candidate in the{' '}<a href="https://infsec.ethz.ch/" target="_blank" rel="noreferrer">Information Security Group</a>{' '}at ETH Zurich. I will be focusing my research on Database security with the emphasis on data privacy and access control.
             </p>
           </div>
 
